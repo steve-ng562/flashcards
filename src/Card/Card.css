@@ -1,0 +1,54 @@
+.cardContainer {
+	cursor: pointer;
+	height: 400px;
+	width: 400px;
+	perspectice: 800px;
+	position: relative;
+	margin: auto;
+	transition: ease-in;
+}
+
+.Card {
+	height: 400px;
+	width: 400px;
+	position: absolute;
+	border: 2px solid #5585ff;
+	border-radius: 20%;
+	transform-style: preserve-3d;
+	transition: all 0.4s ease-in-out;
+}
+
+.Card:hover {
+	transform: rotateY(180deg);
+	transition: all 0.4s ease-in-out;
+}
+
+.Card .front {
+	height: 400px;
+	width: 400px;
+	backface-visibility: hidden;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+}
+
+.Card .back {
+	height: 400px;
+	width: 400px;
+	text-align: center;
+		backface-visibility: hidden;
+	transform: rotateY(180deg);
+}
+
+.def {
+	text-align: center;
+	padding-top: 45%;
+	font-weight: bold;
+}
+
+.word {
+	text-align: center;
+	padding-top: 45%;
+		font-weight: bold;
+
+}

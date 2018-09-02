@@ -1,0 +1,16 @@
+button{
+	text-align: center;
+	display: block;
+width: 200px;
+height: 70px;
+margin: auto;
+color:#5585ff;
+    border:2px solid #5585ff;
+    background-color:transparent;
+    cursor:pointer;
+    border-radius: 1.5rem;
+}
+border:active{
+	border: none;
+	outline-color: white;
+}

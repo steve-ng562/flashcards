@@ -1,0 +1,13 @@
+.cardRow{
+  marigin-top: 20%;
+  padding: 10px;
+}
+
+.btnRow{
+  padding: 10px;
+}
+
+h1, p{
+  text-align: center;
+}
+
