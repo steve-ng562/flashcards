@@ -2,6 +2,7 @@
   "name": "flashcards",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://steve-ng562.github.io/flashcards",
   "dependencies": {
     "ajv": "^6.5.3",
     "axios": "^0.18.0",
